@@ -4,7 +4,8 @@
   <Description>
     Duckdns is a free dynamic DNS service hosted on Amazon VPC.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/config[/b] This is where the duckdns configuration and log files will reside[br]
+    [b]/config[/b] This is where the duckdns configuration and log files will reside[br][br]
+    Don't forget to create the duck.conf file with your domain and token variables in the config folder[br]
   </Description>
   <Overview>
     Duckdns is a free dynamic DNS service hosted on Amazon VPC
