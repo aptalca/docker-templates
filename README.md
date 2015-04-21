@@ -7,3 +7,6 @@ Installation:
 3.Add the following line under "Template Repositories" <br />
   https://github.com/aptalca/docker-templates <br />
 4.Profit
+
+or. . .
+
