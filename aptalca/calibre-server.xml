@@ -7,7 +7,7 @@
     [b]/opt/calibrelibrary[/b] This is where the calibre configuration and library files will reside[br][br]
   </Description>
   <Overview>
-    Calibre is an e-book management software
+    Calibre is an e-book management software. This docker app allows you to serve your e-books to remote clients through the web browser. Note: this is the server version, not the full GUI.
   </Overview>
   <Support></Support>
   <Registry>https://registry.hub.docker.com/u/aptalca/docker-calibre/</Registry>
