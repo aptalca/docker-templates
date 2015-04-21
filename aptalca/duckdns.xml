@@ -36,7 +36,7 @@
   </Environment>    
   <Data>
     <Volume>
-      <HostDir>/path/to/duckdns/</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
