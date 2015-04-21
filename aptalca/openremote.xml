@@ -4,7 +4,7 @@
   <Description>
     OpenRemote is software integration platform for residential and commercial building automation.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/opt/OpenRemote-Controller-2.1.0[/b] This is where the OpenRemote configuration files will reside[br][br]
+    [b]/config[/b] This is where the OpenRemote configuration files will reside[br][br]
   </Description>
   <Overview>
     OpenRemote is software integration platform for residential and commercial building automation.
@@ -34,7 +34,7 @@
   <Data>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/opt/OpenRemote-Controller-2.1.0</ContainerDir>
+      <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
