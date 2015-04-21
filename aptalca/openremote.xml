@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>OpenRemote Controller</Name>
+  <Description>
+    OpenRemote is software integration platform for residential and commercial building automation.[br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/opt/OpenRemote-Controller-2.1.0[/b] This is where the OpenRemote configuration files will reside[br][br]
+  </Description>
+  <Overview>
+    OpenRemote is software integration platform for residential and commercial building automation.
+  </Overview>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/u/aptalca/docker-openremote/</Registry>
+  <GitHub>https://github.com/aptalca/docker-openremote</GitHub>
+  <Repository>aptalca/docker-openremote</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/opt/OpenRemote-Controller-2.1.0</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8080]/controller</WebUI>
+  <Banner></Banner>
+  <Icon>http://www.openremote.org/download/attachments/11468891/OpenRemote+Logo+16x16.png</Icon>
+</Containers>
