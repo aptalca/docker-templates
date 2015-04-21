@@ -10,7 +10,7 @@
   <Overview>
     Calibre is an e-book management software. This docker app allows you to serve your e-books to remote clients through the web browser. Note: this is the server version, not the full GUI.
   </Overview>
-  <Support></Support>
+  <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
   <Registry>https://registry.hub.docker.com/u/aptalca/docker-calibre/</Registry>
   <GitHub>https://github.com/aptalca/docker-calibre</GitHub>
   <Repository>aptalca/docker-calibre</Repository>
