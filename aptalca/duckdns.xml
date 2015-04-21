@@ -12,7 +12,7 @@
     Duckdns is a free dynamic DNS service hosted on Amazon VPC. 
     Unlike most other free dynamic DNS providers, DuckDNS accounts do not require periodic user action to keep them alive. Visit [b]www.duckdns.org[/b] to register your domain.
   </Overview>
-  <Support></Support>
+  <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
   <Registry>https://registry.hub.docker.com/u/aptalca/docker-duckdns/</Registry>
   <GitHub>https://github.com/aptalca/docker-duckdns</GitHub>
   <Repository>aptalca/docker-duckdns</Repository>
