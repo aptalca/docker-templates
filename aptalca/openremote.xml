@@ -42,5 +42,5 @@
   </Data>
   <WebUI>http://[IP]:[PORT:8080]/controller</WebUI>
   <Banner></Banner>
-  <Icon>http://www.openremote.org/download/attachments/11468891/OpenRemote+Logo+16x16.png</Icon>
+  <Icon>http://www.openremote.org/download/attachments/11468891/OpenRemote%20iTunes%20Icon%20512x512.png</Icon>
 </Containers>
