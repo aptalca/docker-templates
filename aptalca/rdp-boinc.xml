@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>RDP-Boinc</Name>
+  <Description>
+    RDP-Boinc is a docker for the BOINC client and manager [br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where the RDP-Boinc configuration and library files will reside[br][br]
+    Don't forget to enter in the host port and app folder. [br][br]
+    [span style='color: #E80000;']3389[/span] is the RDP port[br]
+    To access the BOINC manager, connect to the unraid IP via RDP client ([span style='color: #E80000;']user: root | password: boinc[/span])and click on the the desktop icon for BOINC Manager.
+  </Description>
+  <Overview>
+    BOINC lets you contribute computing power on your home PC to projects doing research in many scientific areas. You can contribute to a single project, or to any combination of them. RDP-Boinc is a docker for the BOINC manager and client that can be accessed through RDP.
+  </Overview>
+  <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
+  <Registry>https://registry.hub.docker.com/u/aptalca/docker-rdp-boinc/</Registry>
+  <GitHub>https://github.com/aptalca/docker-rdp-boinc</GitHub>
+  <Repository>aptalca/docker-rdp-boinc</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3389</HostPort>
+        <ContainerPort>3389</ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner></Banner>
+  <Icon>http://boinc.berkeley.edu/logo/boinc_logo_128_trans.png</Icon>
+</Containers>
