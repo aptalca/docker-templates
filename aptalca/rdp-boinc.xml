@@ -6,8 +6,8 @@
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the RDP-Boinc configuration and library files will reside[br][br]
     Don't forget to enter in the host port and app folder. [br][br]
-    [span style='color: #E80000;']3389[/span] is the RDP port[br]
-    To access the BOINC manager, connect to the unraid IP via RDP client ([span style='color: #E80000;']user: root | password: boinc[/span])and click on the the desktop icon for BOINC Manager.
+    [span style='color: #E80000;']8080[/span] is the WebUI port[br]
+    To access the BOINC manager, open the WebUI.
   </Description>
   <Overview>
     BOINC lets you contribute computing power on your home PC to projects doing research in many scientific areas. You can contribute to a single project, or to any combination of them. RDP-Boinc is a docker for the BOINC manager and client that can be accessed through RDP.
@@ -22,8 +22,8 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>3389</HostPort>
-        <ContainerPort>3389</ContainerPort>
+        <HostPort></HostPort>
+        <ContainerPort>8080</ContainerPort>
         <Protocol></Protocol>
       </Port>
     </Publish>
@@ -41,7 +41,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI></WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/#/client/c/DesktopGUI</WebUI>
   <Banner></Banner>
   <Icon>http://boinc.berkeley.edu/logo/boinc_logo_128_trans.png</Icon>
 </Containers>
