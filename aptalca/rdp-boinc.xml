@@ -41,7 +41,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:8080]/#/client/c/DesktopGUI</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/#/client/c/Boinc</WebUI>
   <Banner></Banner>
   <Icon>http://boinc.berkeley.edu/logo/boinc_logo_128_trans.png</Icon>
 </Containers>
