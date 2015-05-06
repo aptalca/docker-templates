@@ -8,7 +8,8 @@
     [span style='color: #E80000;']8080[/span] is the WebUI port[br][br]
     Don't forget to enter in the host port, config folder and the pictures location. [br][br]
     To access the digiKam GUI, open the WebUI. [span style='color: #E80000;']First time running the WebUI, select /config as the database location.[/span][br]
-    Default resolution for the digiKam window is 1280x720. You can change that to any resolution by opening the Advanced View and modifying the HEIGHT and WIDTH variables.
+    Default resolution for the digiKam window is 1280x720. You can change that to any resolution by opening the Advanced View and modifying the HEIGHT and WIDTH variables.[br]
+    This docker will install digiKam 4.9.0. If you would like to keep up to date with the latest releases, please set the EDGE environment to 1
   </Description>
   <Overview>
     DigiKam is an advanced digital photo management application. The people who inspired digiKam's design are the photographers like you who want to view, manage, edit, enhance, organize, tag, and share photographs under Linux systems.
