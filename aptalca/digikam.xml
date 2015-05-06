@@ -4,9 +4,9 @@
   <Description>
     DigiKam is a docker for the digiKam picture management software [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/config[/b] This is where the digiKam configuration and library files will reside[br][br]
+    [b]/config[/b] This is where the digiKam configuration and library files will reside[br]
+    [span style='color: #E80000;']8080[/span] is the WebUI port[br][br]
     Don't forget to enter in the host port, config folder and the pictures location. [br][br]
-    [span style='color: #E80000;']8080[/span] is the WebUI port[br]
     To access the digiKam GUI, open the WebUI. [span style='color: #E80000;']First time running the WebUI, select /config as the database location.[/span][br]
     Default resolution for the digiKam window is 1280x720. You can change that to any resolution by opening the Advanced View and modifying the HEIGHT and WIDTH variables.
   </Description>
