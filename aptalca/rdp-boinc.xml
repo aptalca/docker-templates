@@ -37,6 +37,7 @@
     <Variable>
       <Name>HEIGHT</Name>
       <Value>720</Value>
+    </Variable>
   </Environment>    
   <Data>
     <Volume>
