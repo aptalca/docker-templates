@@ -4,10 +4,11 @@
   <Description>
     RDP-Boinc is a docker for the BOINC client and manager [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/config[/b] This is where the RDP-Boinc configuration and library files will reside[br][br]
+    [b]/config[/b] This is where the RDP-Boinc configuration and library files will reside[br]
+    [span style='color: #E80000;']8080[/span] is the WebUI port[br][br]
     Don't forget to enter in the host port and app folder. [br][br]
-    [span style='color: #E80000;']8080[/span] is the WebUI port[br]
-    To access the BOINC manager, open the WebUI.
+    To access the BOINC manager, open the WebUI.[br]
+    Default resolution for the BOINC Manager window is 1280x720. You can change that to any resolution by opening the Advanced View and modifying the HEIGHT and WIDTH variables.
   </Description>
   <Overview>
     BOINC lets you contribute computing power on your home PC to projects doing research in many scientific areas. You can contribute to a single project, or to any combination of them. RDP-Boinc is a docker for the BOINC manager and client that can be accessed through RDP.
@@ -30,9 +31,12 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name></Name>
-      <Value></Value>
+      <Name>WIDTH</Name>
+      <Value>1280</Value>
     </Variable>
+    <Variable>
+      <Name>HEIGHT</Name>
+      <Value>720</Value>
   </Environment>    
   <Data>
     <Volume>
