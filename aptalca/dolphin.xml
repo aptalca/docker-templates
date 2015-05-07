@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>Dolphin</Name>
+  <Description>
+  Dolphin is KDE's default file manager. With this docker, you can access the dolphin interface through a web browser.[br][br]
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [span style='color: #E80000;']8080[/span] is the WebUI port[br][br]
+  Don't forget to enter in the host port and whatever volume you would like to mount. [br][br]
+  To access Dolphin, open the WebUI.[br]
+  Default resolution for the Dolphin file Manager window is 1280x720. You can change that to any resolution by opening the Advanced View and modifying the HEIGHT and WIDTH variables.
+  </Description>
+  <Overview>
+  Dolphin is KDE's default file manager. With this docker, you can access the dolphin interface through a web browser.
+  </Overview>
+  <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
+  <Registry>https://registry.hub.docker.com/u/aptalca/docker-rdp-dev/</Registry>
+  <GitHub>https://github.com/aptalca/docker-rdp-dev</GitHub>
+  <Repository>aptalca/docker-rdp-dev</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir>/mnt/</HostDir>
+      <ContainerDir>/mnt</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8080]/#/client/c/Dolphin</WebUI>
+  <Banner></Banner>
+  <Icon>http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dolphin-icon.svg/500px-Dolphin-icon.svg.png</Icon>
+</Containers>
