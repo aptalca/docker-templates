@@ -8,7 +8,7 @@
     Don't forget to enter in the host port and the config folder location. [br][br]
     [span style='color: #E80000;']8080[/span] is the WebUI port[br]
     To access the JD2 GUI, open the WebUI. By default downloads will go to /config/Downloads but you can change that in the GUI[br]
-    JDwonloader 2 also has a webserver accessible through my.jdownloader.org
+    JDownloader 2 also has a webserver accessible through my.jdownloader.org
   </Description>
   <Overview>
     JDownloader is a free, open-source download management tool with a huge community of developers that makes downloading as easy and fast as it should be. Users can start, stop or pause downloads, set bandwith limitations, auto-extract archives and much more. It's an easy-to-extend framework that can save hours of your valuable time every day! [br]
