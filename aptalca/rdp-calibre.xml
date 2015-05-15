@@ -9,7 +9,8 @@
     [span style='color: #E80000;']8081[/span] is the port the calibre server[br][br]
     Don't forget to enter in the host ports and app folder. [br][br]
     To access the calibre desktop GUI, open the WebUI in unRaid. Both the server and the GUI use the same database in the /config folder.[br]
-    Default resolution for the Calibre GUI window is 1280x720. You can change that to any resolution by opening the Advanced View and modifying the HEIGHT and WIDTH variables.
+    Default resolution for the Calibre GUI window is 1280x720. You can change that to any resolution by opening the Advanced View and modifying the HEIGHT and WIDTH variables.[br]
+    This docker will install version 2.28. [span style='color: #E80000;']To get the latest updates, set the EDGE variable to 1[/span] under Advanced View.
   </Description>
   <Overview>
     Calibre is an e-book management software. RDP-Calibre is a combo docker for calibre web server and gui (through webRDP). With this docker, you get the best of both worlds, and they both use the same database.
@@ -36,6 +37,10 @@
     </Publish>
   </Networking>
   <Environment>
+    <Variable>
+      <Name>EDGE</Name>
+      <Value>0</Value>
+    </Variable>
     <Variable>
       <Name>WIDTH</Name>
       <Value>1280</Value>
