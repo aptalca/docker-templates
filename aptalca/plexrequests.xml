@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>PlexRequests</Name>
+  <Description>
+    Simple automated way for users to request new content for Plex [br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where the PLex Requests configuration and library files will reside[br][br]
+    Don't forget to enter in the host port and the config folder location. [br][br]
+    [span style='color: #E80000;']3000[/span] is the WebUI port[br]
+    To access the Plex Requests GUI, open the WebUI. [br][br]
+  </Description>
+  <Overview>
+    Are people constantly asking you to add new content to your Plex Server? Frequent late night texts asking for a new release that's not out yet? Wouldn't it be easier to just send them to a website where they could submit their requests? Enter Plex Requests!
+  </Overview>
+  <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
+  <Registry>https://registry.hub.docker.com/u/aptalca/docker-plexrequets/</Registry>
+  <GitHub>https://github.com/aptalca/docker-plexrequests</GitHub>
+  <Repository>aptalca/docker-plexrequests</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/lokenx/plexrequests-meteor/master/public/favicon.ico</Icon>
+</Containers>
