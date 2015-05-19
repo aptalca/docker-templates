@@ -7,8 +7,8 @@
     [b]/config[/b] This is where the PLex Requests configuration and library files will reside[br][br]
     Don't forget to enter in the host port and the config folder location. [br][br]
     [span style='color: #E80000;']3000[/span] is the WebUI port[br]
-    To access the Plex Requests GUI, open the WebUI. See the following link for setup instructions: https://github.com/lokenx/plexrequests-meteor/blob/master/README.md [br]
-    By default, the master/stable version is installed. If you would like to switch to the dev branch, set the EDGE variable to 1 in Advanced View.[br][br]
+    To access the Plex Requests GUI, open the WebUI. See the following link for setup instructions: https://github.com/lokenx/plexrequests-meteor/blob/master/README.md [br][br]
+    By default, the master/stable version is installed. If you would like to switch to the dev branch, set the EDGE variable to 1 in Advanced View.[br]
   </Description>
   <Overview>
     Are people constantly asking you to add new content to your Plex Server? Frequent late night texts asking for a new release that's not out yet? Wouldn't it be easier to just send them to a website where they could submit their requests? Enter Plex Requests!
