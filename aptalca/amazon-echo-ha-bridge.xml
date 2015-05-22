@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>AmazonEcho-HA-Bridge</Name>
+  <Description>
+    Bridge Amazon Echo with your home automation controller for voice control of connected devices (tested with Vera, but should work with any HA device that accepts http commands)[br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where the  configuration and library files will reside[br][br]
+    Don't forget to enter in the unraid server IP in Advanced View[br][br]
+    See the linked thread for setup instructions: http://forum.micasaverde.com/index.php/topic,31920.msg231970.html#msg231970
+  </Description>
+  <Overview>
+    Bridge Amazon Echo with your home automation controller for voice control of connected devices (tested with Vera, but should work with any HA device that accepts http commands)[br]
+    See the linked thread for setup instructions: http://forum.micasaverde.com/index.php/topic,31920.msg231970.html#msg231970
+  </Overview>
+  <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
+  <Registry>https://registry.hub.docker.com/u/aptalca/docker-amazon-echo-ha-bridge/</Registry>
+  <GitHub>https://github.com/aptalca/docker-amazon-echo-ha-bridge</GitHub>
+  <Repository>aptalca/docker-amazon-echo-ha-bridge</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>host</Mode>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>SERVERIP</Name>
+      <Value></Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner></Banner>
+  <Icon>http://www.cdrinfo.com/Images/Uploaded/Amazon_Echo_logo_120.jpg</Icon>
+</Containers>
