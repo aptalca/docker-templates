@@ -10,7 +10,7 @@
   </Description>
   <Overview>
     Bridge Amazon Echo with your home automation controller for voice control of connected devices (tested with Vera, but should work with any HA device that accepts http commands)[br]
-    See the linked thread for setup instructions:
+    See the linked thread for setup instructions:[br]
     http://forum.micasaverde.com/index.php/topic,31920.msg231970.html#msg231970
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
