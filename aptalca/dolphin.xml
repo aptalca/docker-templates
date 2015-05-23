@@ -54,4 +54,6 @@
   <WebUI>http://[IP]:[PORT:8080]/#/client/c/Dolphin</WebUI>
   <Banner></Banner>
   <Icon>http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dolphin-icon.svg/500px-Dolphin-icon.svg.png</Icon>
+  <Beta>False</Beta>
+  <Category>Tools:</Category>
 </Containers>
