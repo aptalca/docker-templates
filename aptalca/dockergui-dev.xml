@@ -44,4 +44,6 @@
   <WebUI>http://[IP]:[PORT:8080]/#/client/c/rdp-dev</WebUI>
   <Banner></Banner>
   <Icon>http://upload.wikimedia.org/wikipedia/en/b/b0/Remote_desktop_connection_icon.PNG</Icon>
+  <Beta>False</Beta>
+  <Category>Tools:</Category>
 </Containers>
