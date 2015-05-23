@@ -38,4 +38,6 @@
   <WebUI></WebUI>
   <Banner></Banner>
   <Icon>http://www.cdrinfo.com/Images/Uploaded/Amazon_Echo_logo_120.jpg</Icon>
+  <Beta>False</Beta>
+  <Category>HomeAutomation:</Category>
 </Containers>
