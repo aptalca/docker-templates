@@ -44,4 +44,6 @@
   <WebUI></WebUI>
   <Banner></Banner>
   <Icon>https://duckdns.org/img/ducky_icon.png</Icon>
+  <Beta>False</Beta>
+  <Category>Network:DNS</Category>
 </Containers>
