@@ -60,4 +60,6 @@
   <WebUI>http://[IP]:[PORT:8080]/#/client/c/Calibre</WebUI>
   <Banner></Banner>
   <Icon>http://calibre-ebook.com/favicon.ico</Icon>
+  <Beta>False</Beta>
+  <Category>MediaApp:Books MediaServer:Books</Category>
 </Containers>
