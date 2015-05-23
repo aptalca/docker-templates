@@ -55,4 +55,6 @@
   <WebUI>http://[IP]:[PORT:8080]/#/client/c/digiKam</WebUI>
   <Banner></Banner>
   <Icon>http://www.h-online.com/imgs/43/6/9/3/5/4/7/Digikam-logo200-22eb510f46d16449.png</Icon>
+  <Beta>False</Beta>
+  <Category>MediaApp:Photos MediaServer:Photos</Category>
 </Containers>
