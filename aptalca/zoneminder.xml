@@ -42,4 +42,6 @@
   <WebUI>http://[IP]:[PORT:80]/zm</WebUI>
   <Banner></Banner>
   <Icon>http://www.zoneminder.com/sites/zoneminder.com/files/ZoneMinderSmall.gif</Icon>
+  <Beta>False</Beta>
+  <Category>HomeAutomation: MediaApp:Video MediaServer:Video Tools:</Category>
 </Containers>
