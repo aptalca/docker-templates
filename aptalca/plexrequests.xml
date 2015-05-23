@@ -45,4 +45,6 @@
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/lokenx/plexrequests-meteor/master/public/favicon.ico</Icon>
+  <Beta>False</Beta>
+  <Category>Cloud: Downloaders: MediaServer:Video</Category>
 </Containers>
