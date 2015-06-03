@@ -44,4 +44,12 @@
   <Icon>http://www.zoneminder.com/sites/zoneminder.com/files/ZoneMinderSmall.gif</Icon>
   <Beta>True</Beta>
   <Category>HomeAutomation: MediaApp:Video MediaServer:Video Tools:</Category>
+  <Changes>
+  [center][font size=5]Zoneminder Change Log[/font][/center]
+  [font size=4]2015.06.01[/font]
+  - Initial Release
+  
+  [font size=4]2015.06.02[/font]
+  - Testing full ubuntu build
+  </Changes>
 </Containers>
