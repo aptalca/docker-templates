@@ -22,13 +22,6 @@
   <Privileged>false</Privileged>
   <Networking>
     <Mode>host</Mode>
-    <Publish>
-      <Port>
-        <HostPort></HostPort>
-        <ContainerPort></ContainerPort>
-        <Protocol></Protocol>
-      </Port>
-    </Publish>
   </Networking>
   <Environment>
     <Variable>
