@@ -20,8 +20,15 @@
   <Repository>aptalca/docker-amazon-echo-ha-bridge</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-    <Networking>
+  <Networking>
     <Mode>host</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <Environment>
     <Variable>
