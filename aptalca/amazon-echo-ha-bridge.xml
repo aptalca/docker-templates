@@ -6,7 +6,8 @@
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the  configuration and library files will reside[br][br]
     Don't forget to enter in the unraid server IP in Advanced View[br][br]
-    See the linked thread for setup instructions: http://forum.micasaverde.com/index.php/topic,31920.msg231970.html#msg231970
+    See the linked thread for setup instructions: http://forum.micasaverde.com/index.php/topic,31920.msg231970.html#msg231970[br][br]
+    [span style='color: #E80000;']Important[/span]: The new webUI makes it much easier to manage devices. However, it is unfortunately hardcoded in the source to run on port 8080. If you have any other container that utilize this port, all hell may break loose :-)[br]
   </Description>
   <Overview>
     Bridge Amazon Echo with your home automation controller for voice control of connected devices (tested with Vera, but should work with any HA device that accepts http commands)[br]
@@ -35,9 +36,21 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI></WebUI>
+  <WebUI>http://[IP]:8080/configurator.html</WebUI>
   <Banner></Banner>
   <Icon>http://www.cdrinfo.com/Images/Uploaded/Amazon_Echo_logo_120.jpg</Icon>
   <Beta>False</Beta>
   <Category>HomeAutomation:</Category>
+  <Changes>
+    [center][font size=5]AmazonEcho-HA-Bridge Change Log[/font][/center]
+    
+    [font size=4]2015.06.05[/font]
+    - Enabled WebUI for much easier device management
+    
+    [font size=4]2015.05.31[/font]
+    - Update to 0.1.3 - Dimming function added
+    
+    [font size=4]2015.05.22[/font]
+    - Initial release
+  </Changes>
 </Containers>
