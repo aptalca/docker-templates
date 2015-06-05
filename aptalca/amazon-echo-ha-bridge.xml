@@ -36,7 +36,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:8080/configurator.html</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/configurator.html</WebUI>
   <Banner></Banner>
   <Icon>http://www.cdrinfo.com/Images/Uploaded/Amazon_Echo_logo_120.jpg</Icon>
   <Beta>False</Beta>
