@@ -15,7 +15,7 @@
   <GitHub>https://github.com/aptalca/docker-zoneminder</GitHub>
   <Repository>aptalca/docker-zoneminder</Repository>
   <BindTime>true</BindTime>
-  <Privileged>false</Privileged>
+  <Privileged>true</Privileged>
     <Networking>
     <Mode>bridge</Mode>
     <Publish>
