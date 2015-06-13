@@ -44,4 +44,13 @@
   <Icon>http://www.zoneminder.com/sites/zoneminder.com/files/ZoneMinderSmall.gif</Icon>
   <Beta>False</Beta>
   <Category>HomeAutomation: MediaApp:Video MediaServer:Video Tools:</Category>
+  <Changes>
+    [center][font size=5]Zoneminder Change Log[/font][/center]
+    
+    [font size=4]2015.06.13[/font]
+    - Incorporated memory fix for HD and multiple cameras
+    - Switched back to the phusion base
+    - [b]You may have to delete your local data folder and start from scratch[/b]
+
+  </Changes>
 </Containers>
