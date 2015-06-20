@@ -44,7 +44,17 @@
   </Data>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/lokenx/plexrequests-meteor/master/public/favicon.ico</Icon>
+  <Icon>http://i.imgur.com/4RhSj6J.png</Icon>
   <Beta>False</Beta>
   <Category>Cloud: Downloaders: MediaServer:Video</Category>
+  <Changes>
+    [center][font size=5]PlexRequests Change Log[/font][/center]
+
+    [font size=4]2015.05.19[/font]
+    - Minor update - EDGE=1 variable added to switch to the dev branch (under Advanced View)
+    
+    [font size=4]2015.05.18[/font]
+    - Initial Release
+
+  </Changes>
 </Containers>
