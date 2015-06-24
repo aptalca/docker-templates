@@ -48,6 +48,9 @@
   <Changes>
     [center][font size=5]AmazonEcho-HA-Bridge Change Log[/font][/center]
     
+    [font size=4]2015.06.24[/font]
+    - You can now change the server port if you really really really want to. But make sure you read the description about possible issue with the WebUI button.
+    
     [font size=4]2015.06.05[/font]
     - Enabled WebUI for much easier device management
     
