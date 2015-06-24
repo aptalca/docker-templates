@@ -39,6 +39,10 @@
       <Name>HEIGHT</Name>
       <Value>720</Value>
     </Variable>
+    <Variable>
+      <Name>EDGE</Name>
+      <Value>0</Value>
+    </Variable>
   </Environment>
   <Data>
     <Volume>
@@ -57,4 +61,13 @@
   <Icon>http://www.h-online.com/imgs/43/6/9/3/5/4/7/Digikam-logo200-22eb510f46d16449.png</Icon>
   <Beta>False</Beta>
   <Category>MediaApp:Photos MediaServer:Photos</Category>
+  <Changes>
+    [center][font size=5]DigiKam Change Log[/font][/center]
+    
+    [font size=4]2015.05.06[/font]
+    - Minor update - DigiKam updated to 4.9.0, EDGE variable added to enable future updates
+    
+    [font size=4]2015.05.03[/font]
+    - Initial release
+  </Changes>
 </Containers>
