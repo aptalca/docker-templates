@@ -7,7 +7,7 @@
     [b]/config[/b] This is where the  configuration and library files will reside[br][br]
     Don't forget to enter in the unraid server IP in Advanced View[br][br]
     See the linked thread for setup instructions: http://forum.micasaverde.com/index.php/topic,31920.msg231970.html#msg231970[br][br]
-    [span style='color: #E80000;']Important[/span]: The new webUI makes it much easier to manage devices. However, it is unfortunately hardcoded in the source to run on port 8080. If you have any other container that utilize this port, all hell may break loose :-)[br]
+    [span style='color: #E80000;']Important[/span]: The new webUI makes it much easier to manage devices. By default, it runs on port 8080. If you really really really need to change it, you can add/modify SERVERPORT environment variable under advanced settings and set it to your choice of port, but if you do, the WebUI button in the unRaid GUI will no longer work :-)[br]
   </Description>
   <Overview>
     Bridge Amazon Echo with your home automation controller for voice control of connected devices (tested with Vera, but should work with any HA device that accepts http commands)[br]
