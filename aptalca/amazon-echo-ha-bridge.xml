@@ -28,6 +28,10 @@
       <Name>SERVERIP</Name>
       <Value></Value>
     </Variable>
+    <Variable>
+      <Name>SERVERPORT</Name>
+      <Value>8080</Value>
+    </Variable>
   </Environment>    
   <Data>
     <Volume>
