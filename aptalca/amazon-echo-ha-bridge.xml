@@ -48,6 +48,10 @@
   <Changes>
     [center][font size=5]AmazonEcho-HA-Bridge Change Log[/font][/center]
     
+    [font size=4]2015.07.16[/font]
+    - Updated to release 0.2.0
+    - Removed custom configurator.html as it is no longer needed
+
     [font size=4]2015.06.24[/font]
     - You can now change the server port if you really really really want to. But make sure you read the description about possible issue with the WebUI button.
     
