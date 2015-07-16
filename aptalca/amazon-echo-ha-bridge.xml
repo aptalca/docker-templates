@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>AmazonEcho-HA-Bridge</Name>
+  <Date>2015-07-16</Date>
   <Description>
     Bridge Amazon Echo with your home automation controller for voice control of connected devices (tested with Vera, but should work with any HA device that accepts http commands)[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
