@@ -68,7 +68,7 @@
     
     [font size=4]2015.07.25[/font]
     - Updated to release 2.33
-    - Added custom url and url prefix options, both of which are only for advanced docker users. See the following post for instructions: https://lime-technology.com/forum/index.php?topic=39413.msg396697#msg396697
+    - Added custom url and url prefix options, both of which are for advanced docker users only. See the following post for instructions: https://lime-technology.com/forum/index.php?topic=39413.msg396697#msg396697
 
   </Changes>
 </Containers>
