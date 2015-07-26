@@ -62,4 +62,13 @@
   <Icon>http://calibre-ebook.com/favicon.ico</Icon>
   <Beta>False</Beta>
   <Category>MediaApp:Books MediaServer:Books</Category>
+  <Date>2015-07-25</Date>
+  <Changes>
+    [center][font size=5]RDP-Calibre Change Log[/font][/center]
+    
+    [font size=4]2015.07.25[/font]
+    - Updated to release 2.33
+    - Added custom url and url prefix options, both of which are only for advanced docker users. See the following post for instructions: https://lime-technology.com/forum/index.php?topic=39413.msg396697#msg396697
+
+  </Changes>
 </Containers>
