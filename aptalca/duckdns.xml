@@ -30,7 +30,11 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name></Name>
+      <Name>SUBDOMAINS</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>TOKEN</Name>
       <Value></Value>
     </Variable>
   </Environment>    
@@ -46,4 +50,13 @@
   <Icon>https://duckdns.org/img/ducky_icon.png</Icon>
   <Beta>False</Beta>
   <Category>Network:DNS</Category>
+  <Date>2015-08-05</Date>
+  <Changes>
+    [center][font size=5]DuckDNS Change Log[/font][/center]
+    
+    [font size=4]2015.08.05[/font]
+    - No more editing config files. The subdomains and token are now entered as environment variables.
+    - Due to issues with dockerman, if you update from an earlier release, your xml may not get updated with the new environment variable. In that case, the container will retrieve the values from the old duck.conf file if it exists. You can delete the container and reinstall from Community Applications to update the xml.
+
+  </Changes>
 </Containers>
