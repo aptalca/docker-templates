@@ -53,5 +53,8 @@
     - Run as user nobody (instead of root)
     - Updated to Phusion 0.9.17
     
+    [font size=4]2015.04.20[/font]
+    - Initial Release
+    
   </Changes>
 </Containers>
