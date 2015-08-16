@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>OpenRemote Controller</Name>
+  <Date>2015-08-15</Date>
   <Description>
     OpenRemote is software integration platform for residential and commercial building automation.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -45,4 +46,12 @@
   <Icon>http://www.openremote.org/download/attachments/11468891/OpenRemote%20iTunes%20Icon%20512x512.png</Icon>
   <Beta>False</Beta>
   <Category>HomeAutomation:</Category>
+  <Changes>
+    [center][font size=5]OpenRemote Controller Change Log[/font][/center]
+    
+    [font size=4]2015.08.15[/font]
+    - Run as user nobody (instead of root)
+    - Updated to Phusion 0.9.17
+    
+  </Changes>
 </Containers>
