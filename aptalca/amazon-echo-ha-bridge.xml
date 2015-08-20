@@ -50,7 +50,8 @@
     [center][font size=5]AmazonEcho-HA-Bridge Change Log[/font][/center]
 
     [font size=4]2015.08.20[/font]
-    - Set max memory for java
+    - Set max memory for java so it doesn't tie up unnecessary ram
+    - Allow for custom version install by setting environment variable VERSION=0.X.X under advanced settings
     
     [font size=4]2015.08.17[/font]
     - Updated jar to latest version 0.2.1
