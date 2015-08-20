@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>AmazonEcho-HA-Bridge</Name>
-  <Date>2015-08-17</Date>
+  <Date>2015-08-20</Date>
   <Description>
     Bridge Amazon Echo with your home automation controller for voice control of connected devices (tested with Vera, but should work with any HA device that accepts http commands)[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -48,6 +48,9 @@
   <Category>HomeAutomation:</Category>
   <Changes>
     [center][font size=5]AmazonEcho-HA-Bridge Change Log[/font][/center]
+
+    [font size=4]2015.08.20[/font]
+    - Set max memory for java
     
     [font size=4]2015.08.17[/font]
     - Updated jar to latest version 0.2.1
