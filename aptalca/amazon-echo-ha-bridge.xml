@@ -23,6 +23,13 @@
   <Privileged>false</Privileged>
   <Networking>
     <Mode>host</Mode>
+    <Publish>
+<Port>
+<HostPort>8080</HostPort>
+<ContainerPort>8080</ContainerPort>
+<Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <Environment>
     <Variable>
