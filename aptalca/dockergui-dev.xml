@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>Dockergui-dev</Name>
+  <Date>2015-08-28</Date>
   <Description>
   This docker opens a terminal window in the web browser. You can use it as a dev environment for docker web apps. The user is nobody and the password is PASSWD
   </Description>
@@ -19,6 +20,11 @@
       <Port>
         <HostPort></HostPort>
         <ContainerPort>8080</ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>3389</ContainerPort>
         <Protocol></Protocol>
       </Port>
     </Publish>
@@ -46,4 +52,15 @@
   <Icon>http://upload.wikimedia.org/wikipedia/en/b/b0/Remote_desktop_connection_icon.PNG</Icon>
   <Beta>False</Beta>
   <Category>Tools:</Category>
+  <Changes>
+    [center][font size=5]Dockergui-Dev Change Log[/font][/center]
+
+    [font size=4]2015.08.28[/font]
+    - Updated base to xrdp1.3
+    - RDP port added to template
+
+    [font size=4]2015.04.20[/font]
+    - Initial Release
+    
+  </Changes>
 </Containers>
