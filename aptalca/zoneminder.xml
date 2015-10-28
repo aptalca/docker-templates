@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>Zoneminder</Name>
+  <Date>2015-10-27</Date>
   <Description>
     Zoneminder is the top Linux video camera security and surveillance solution. [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -46,6 +47,10 @@
   <Category>HomeAutomation: MediaApp:Video MediaServer:Video Tools:</Category>
   <Changes>
     [center][font size=5]Zoneminder Change Log[/font][/center]
+    
+    [font size=4]2015.10.27[/font]
+    - perl5/ZoneMinder folder is now persistent and available in the config folder to allow easy access for custom perl scripts
+    - usbutils included for usb camera support (needs to be tested)
     
     [font size=4]2015.06.13[/font]
     - Incorporated memory fix for HD and multiple cameras
