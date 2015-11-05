@@ -11,6 +11,7 @@
     [span style='color: #E80000;']Important[/span]: The new webUI makes it much easier to manage devices. By default, it runs on port 8080. If you really really really need to change it, you can add/modify SERVERPORT environment variable under advanced settings and set it to your choice of port, but if you do, you also have to modify the WebUI url. Read the post linked here for further instructions: https://lime-technology.com/forum/index.php?topic=39413.msg367707#msg367707[br]
   </Description>
   <Overview>
+    [b][u][span style='color: #E80000;']This container has been deprecated!!! Please install the container titled "Home Automation Bridge" as it does the same and more!![/span][/u][/b][br]
     Bridge Amazon Echo with your home automation controller for voice control of connected devices (tested with Vera, but should work with any HA device that accepts http commands)[br]
     See the linked thread for setup instructions:[br]
     http://forum.micasaverde.com/index.php/topic,31920.msg231970.html#msg231970
@@ -48,6 +49,8 @@
   <Category>HomeAutomation:</Category>
   <Changes>
     [center][font size=5]AmazonEcho-HA-Bridge Change Log[/font][/center]
+    
+    [center][font size=5]This container has been deprecated!!! Please install the container titled "Home Automation Bridge" as it does the same and more!![/font][/center]
 
     [font size=4]2015.08.20[/font]
     - Set max memory for java so it doesn't tie up unnecessary ram
