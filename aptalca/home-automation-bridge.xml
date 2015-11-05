@@ -7,7 +7,8 @@
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the  configuration and library files will reside[br][br]
     Don't forget to enter in the unraid server IP and port in Advanced View[br]
-    Vera and Harmony info are optional. Leave the fields as is ("None"), if you do not wish to connect to those devices.[br][br]
+    Vera and Harmony info are optional. Leave the fields as is ("None"), if you do not wish to connect to those devices.[br]
+    If you change the SERVERPORT variable, make sure you also change the WebUI variable under "Additional Fields" at the bottom or the gui WebUI button won't work[br][br]
   </Description>
   <Overview>
     Bridge Amazon Echo with your home automation controller or Harmony Hub for voice control of connected devices (Vera and Harmony devices retrieved automatically)[br]
