@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>Home-Automation-Bridge</Name>
+  <Date>2015-11-04</Date>
+  <Description>
+    Use Amazon Echo to voice control your home automation devices through http commands sent to your home automation controller or through direct control of the Harmony Hub (Vera and Harmony devices are automatically retrieved for easy addition).[br]This is a docker container for bwssystems' ha-bridge - https://github.com/bwssytems/ha-bridge[br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where the  configuration and library files will reside[br][br]
+    Don't forget to enter in the unraid server IP and port in Advanced View[br]
+    Vera and Harmony info are optional. Leave the fields as is ("None"), if you do not wish to connect to those devices.[br][br]
+  </Description>
+  <Overview>
+    Bridge Amazon Echo with your home automation controller or Harmony Hub for voice control of connected devices (Vera and Harmony devices retrieved automatically)[br]
+    This is a docker implementation of bwssystems' home automation bridge - https://github.com/bwssytems/ha-bridge [br]
+  </Overview>
+  <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
+  <Registry>https://registry.hub.docker.com/u/aptalca/home-automation-bridge/</Registry>
+  <GitHub>https://github.com/aptalca/docker-ha-bridge/</GitHub>
+  <Repository>aptalca/home-automation-bridge</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>SERVERIP</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>SERVERPORT</Name>
+      <Value>3080</Value>
+    </Variable>
+    <Variable>
+      <Name>VERAIP</Name>
+      <Value>None</Value>
+    </Variable>
+    <Variable>
+      <Name>HARMONYIP</Name>
+      <Value>None</Value>
+    </Variable>
+    <Variable>
+      <Name>HARMONYUSER</Name>
+      <Value>None</Value>
+    </Variable>
+    <Variable>
+      <Name>HARMONYPWD</Name>
+      <Value>None</Value>
+    </Variable>
+    <Variable>
+      <Name>UPNPSTRICT</Name>
+      <Value>true</Value>
+    </Variable>
+    <Variable>
+      <Name>UPNPTRACE</Name>
+      <Value>false</Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:3080]/</WebUI>
+  <Banner></Banner>
+  <Icon>http://www.cdrinfo.com/Images/Uploaded/Amazon_Echo_logo_120.jpg</Icon>
+  <Beta>False</Beta>
+  <Category>HomeAutomation:</Category>
+  <Changes>
+    [center][font size=5]Home Automation Bridge Change Log[/font][/center]
+
+    [font size=4]2015.11.04[/font]
+    - Initial release
+  </Changes>
+</Containers>
