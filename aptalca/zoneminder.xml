@@ -42,7 +42,7 @@
   </Data>
   <WebUI>http://[IP]:[PORT:80]/zm</WebUI>
   <Banner></Banner>
-  <Icon>http://www.zoneminder.com/sites/zoneminder.com/files/ZoneMinderSmall.gif</Icon>
+  <Icon>http://www.pddesign.com.au/img/blog/home-surveillance/zoneminder-logo-01.png</Icon>
   <Beta>False</Beta>
   <Category>HomeAutomation: MediaApp:Video MediaServer:Video Tools:</Category>
   <Changes>
