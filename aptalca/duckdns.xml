@@ -50,9 +50,12 @@
   <Icon>https://duckdns.org/img/ducky_icon.png</Icon>
   <Beta>False</Beta>
   <Category>Network:DNS</Category>
-  <Date>2015-08-05</Date>
+  <Date>2015-12-15</Date>
   <Changes>
     [center][font size=5]DuckDNS Change Log[/font][/center]
+    
+    [font size=4]2015.12.15[/font]
+    - Fixed permissions on local files
     
     [font size=4]2015.08.05[/font]
     - No more editing config files. The subdomains and token are now entered as environment variables.
