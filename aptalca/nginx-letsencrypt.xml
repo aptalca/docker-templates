@@ -5,7 +5,7 @@
     Nginx based webserver with a built-in letsencrypt client that automates free SSL certificate generation and renewal processes. [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the nginx configuration and website files will reside[br][br]
-    Don't forget to enter in the host ports, e-mail address and the domain url (under advanced view). [br][br]
+    Don't forget to enter in the host ports, e-mail address, the domain url(without any subdomains like www) and the subdomains (just the subdomains, comma separated, no spaces) (under advanced view). [br][br]
     Note: Make sure that the port 443 in the container is accessible from the outside of your lan. It is OK to map container's port 443 to another port on the host (ie 943) as long as your router will forward port 443 from the outside to port 943 on the host and it will end up at port 443 in the container. If this is confusing, just leave 443 mapped to 443 and forward port 443 on your router to your unraid IP.[br][br]
     Prior to SSL certificate creation, letsencrypt creates a temporary webserver and checks to see if it is accessible through the domain url provided for validation. Make sure that your server is reachable through your.domain.url:443 and that port 443 is forwarded on your router to the container's port 443 prior to running this docker. Otherwise letsencrypt validation will fail, and no certificates will be generated.[br]
   </Description>
@@ -42,6 +42,10 @@
       <Name>URL</Name>
       <Value></Value>
     </Variable>
+    <Variable>
+      <Name>SUBDOMAINS</Name>
+      <Value>www</Value>
+    </Variable>
   </Environment>    
   <Data>
     <Volume>
@@ -58,6 +62,9 @@
   <Changes>
     [center][font size=5]Nginx-Letsencrypt Change Log[/font][/center]
 
+    [font size=4]2016.01.03[/font]
+    - Update to support multiple subdomains
+    
     [font size=4]2015.12.29[/font]
     - Initial release
   </Changes>
