@@ -57,7 +57,7 @@
   <WebUI>https://[IP]:[PORT:443]</WebUI>
   <Banner></Banner>
   <Icon>http://technoloman.com/wp-content/uploads/2015/12/Lets_encrypt_logo.png</Icon>
-  <Date>2015-12-29</Date>
+  <Date>2016-01-05</Date>
   <Category>Network:Web Network:Proxy</Category>
   <Changes>
     [center][font size=5]Nginx-Letsencrypt Change Log[/font][/center]
