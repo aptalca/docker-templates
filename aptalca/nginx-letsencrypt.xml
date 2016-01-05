@@ -62,6 +62,10 @@
   <Changes>
     [center][font size=5]Nginx-Letsencrypt Change Log[/font][/center]
 
+    [font size=4]2016.01.05[/font]
+    - Fixed permissions for php-fpm and memcached (they were not starting)
+    - Fixed silly typo causing cert renewal every 6 days instead of 60
+
     [font size=4]2016.01.03[/font]
     - Update to support multiple subdomains
     
