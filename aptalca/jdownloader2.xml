@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>JDownloader2</Name>
-  <Date>2015-08-16</Date>
+  <Date>2016-01-08</Date>
   <Description>
     JDownloader is a free, open-source download management tool with a huge community of developers that makes downloading as easy and fast as it should be.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -56,6 +56,9 @@
   <Category>Cloud: Downloaders:</Category>
   <Changes>
     [center][font size=5]JDownloader2 Change Log[/font][/center]
+
+    [font size=4]2016.01.08[/font]
+    - Fixed downloaded file permissions. They should now work in samba shares.
     
     [font size=4]2015.08.16[/font]
     - Switched to base xrdp 1.3 so clipboard should work
