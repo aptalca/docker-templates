@@ -34,7 +34,7 @@
       <Port>
         <HostPort></HostPort>
         <ContainerPort>8081</ContainerPort>
-        <Protocol></Protocol>
+        <Protocol>tcp</Protocol>
       </Port>
     </Publish>
   </Networking>
