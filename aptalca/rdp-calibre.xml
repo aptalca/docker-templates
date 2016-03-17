@@ -29,7 +29,7 @@
       <Port>
         <HostPort></HostPort>
         <ContainerPort>8080</ContainerPort>
-        <Protocol></Protocol>
+        <Protocol>tcp</Protocol>
       </Port>
       <Port>
         <HostPort></HostPort>
