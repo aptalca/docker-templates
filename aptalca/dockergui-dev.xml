@@ -20,12 +20,12 @@
       <Port>
         <HostPort></HostPort>
         <ContainerPort>8080</ContainerPort>
-        <Protocol></Protocol>
+        <Protocol>tcp</Protocol>
       </Port>
       <Port>
         <HostPort></HostPort>
         <ContainerPort>3389</ContainerPort>
-        <Protocol></Protocol>
+        <Protocol>tcp</Protocol>
       </Port>
     </Publish>
   </Networking>
