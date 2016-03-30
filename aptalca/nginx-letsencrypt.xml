@@ -57,12 +57,19 @@
   <WebUI>https://[IP]:[PORT:443]</WebUI>
   <Banner></Banner>
   <Icon>http://technoloman.com/wp-content/uploads/2015/12/Lets_encrypt_logo.png</Icon>
-  <Date>2016-03-08</Date>
+  <Date>2016-03-29</Date>
   <Category>Network:Web Network:Proxy</Category>
   <Changes>
     [center][font size=5]Nginx-Letsencrypt Change Log[/font][/center]
 
- [font size=4]2016.03.08[/font]
+    [font size=4]2016.03.29[/font]
+    - IMPORTANT UPDATE
+    - Cron script has been fixed (wasn't getting the correct env variables)
+    - Letsencrypt updates more frequently (infrequent updates could error and break cert updates)
+    - Cron now runs everynight at midnight to check status and updates letsencrypt
+    - Letsencrypt log file gets appended with cron output for tracking update history
+ 
+    [font size=4]2016.03.08[/font]
     - Fixed issue with fail2ban not starting after container crash or ungraceful shutdown
 
     [font size=4]2016.01.15[/font]
