@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>Zoneminder-1_29</Name>
-  <Date>2016-03-10</Date>
+  <Date>2016-03-26</Date>
   <Description>
     Zoneminder is the top Linux video camera security and surveillance solution. [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -47,6 +47,12 @@
   <Category>HomeAutomation: MediaApp:Video MediaServer:Video Tools:</Category>
   <Changes>
     [center][font size=5]Zoneminder-1.29 Change Log[/font][/center]
+    
+    [font size=4]2016.03.26[/font]
+    - Fixed the images, events and temp folder paths
+    
+    [font size=4]2016.03.14[/font]
+    - Fixed the Cambozola location
     
     [font size=4]2016.03.10[/font]
     - New release of version 1.29
