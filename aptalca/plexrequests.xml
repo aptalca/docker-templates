@@ -7,6 +7,7 @@
     [b]/config[/b] This is where the PLex Requests configuration and library files will reside[br][br]
     Don't forget to enter in the host port and the config folder location. [br][br]
     [span style='color: #E80000;']3000[/span] is the WebUI port[br]
+    On container start, meteor and the app are updated before the gui is up. If meteor servers are being slow, the update could take up to 20 minutes or more. Watch the logs to see the progress.[br]
     To access the Plex Requests GUI, open the WebUI. See the following link for setup instructions: https://github.com/lokenx/plexrequests-meteor/blob/master/README.md [br][br]
     By default, the master/stable version is installed. If you would like to switch to a different branch (for testing or development purposes), set the BRANCH variable to the specific branch name in Advanced View.[br]
   </Description>
