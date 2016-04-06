@@ -50,6 +50,9 @@
   <Changes>
     [center][font size=5]PlexRequests Change Log[/font][/center]
 
+    [font size=4]2016.04.06[/font]
+    - Increased verbosity in the log (really slow meteor updates could fool users into thinking it wasn't working)
+
     [font size=4]2015.11.02[/font]
     - Previous meteor update was preventing a git pull, this version fixes that issue
 
@@ -64,5 +67,5 @@
     - Initial Release
 
   </Changes>
-  <Date>2015-11-02</Date>
+  <Date>2016-04-06</Date>
 </Containers>
