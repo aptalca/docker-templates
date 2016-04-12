@@ -57,10 +57,19 @@
   <WebUI>https://[IP]:[PORT:443]</WebUI>
   <Banner></Banner>
   <Icon>http://technoloman.com/wp-content/uploads/2015/12/Lets_encrypt_logo.png</Icon>
-  <Date>2016-04-11</Date>
+  <Date>2016-04-12</Date>
   <Category>Network:Web Network:Proxy</Category>
   <Changes>
     [center][font size=5]Nginx-Letsencrypt Change Log[/font][/center]
+
+    [font size=4]2016.04.12[/font]
+    - Many changes under the hood to streamline (hopefully the last update for a while)
+    - New/renewed certs will be 4096 bits
+    - Added option for 4096 bit dhparams
+    - No more git, only uses the single letsencrypt-auto script
+    - All environment variables match (bash, init and cron)
+    - Fixed bug affecting multiple subdomains
+    - Finally fixed php (may have to change your site config to use "fastcgi_pass unix:/var/run/php5-fpm.sock;" as in here: https://github.com/aptalca/docker-webserver/blob/master/defaults/default ) and delete your nginx-fpm.conf file and restart
 
     [font size=4]2016.04.11[/font]
     - Fixed cron environment issue that could break script updates
