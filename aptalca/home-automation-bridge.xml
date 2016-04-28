@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>Home-Automation-Bridge</Name>
-  <Date>2016-02-03</Date>
   <Description>
     Use Amazon Echo to voice control your home automation devices through http commands sent to your home automation controller or through direct control of the Harmony Hub (Vera and Harmony devices are automatically retrieved for easy addition).[br]This is a docker container for bwssystems' ha-bridge - https://github.com/bwssytems/ha-bridge[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -84,8 +83,12 @@
   <Icon>http://www.cdrinfo.com/Images/Uploaded/Amazon_Echo_logo_120.jpg</Icon>
   <Beta>False</Beta>
   <Category>HomeAutomation:</Category>
+  <Date>2016-04-28</Date>
   <Changes>
     [center][font size=5]Home Automation Bridge Change Log[/font][/center]
+
+    [font size=4]2016.04.28[/font]
+    - Update to ver 2.0.1
 
     [font size=4]2016.02.03[/font]
     - Update to ver 1.3.7 - Support for Nest added as well as support for multiple Veras and Harmonys. If upgrading from earlier version, you may have to add the nest variables manually. Please see the docker page for instructions.
