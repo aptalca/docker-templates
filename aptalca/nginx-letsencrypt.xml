@@ -11,7 +11,7 @@
     Additional support provided in this thread: http://lime-technology.com/forum/index.php?topic=43696.0
   </Description>
   <Overview>
-    Nginx based webserver with a built-in letsencrypt client that automates free SSL certificate generation and renewal processes.
+    Nginx based webserver with a built-in letsencrypt client that automates free SSL certificate generation and renewal processes. Also includes fail2ban for security.
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
   <Registry>https://registry.hub.docker.com/u/aptalca/nginx-letsencrypt/</Registry>
