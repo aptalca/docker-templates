@@ -6,7 +6,7 @@
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the  configuration and library files will reside[br][br]
     Don't forget to enter in the unraid server IP and port in Advanced View[br]
-    Vera and Harmony info are optional. Leave the fields as is ("None"), if you do not wish to connect to those devices.[br]
+    Once installed, you can enter the Vera, Harmony and Nest info through the webgui[br]
     If you change the SERVERPORT variable, make sure you also change the WebUI variable under "Additional Fields" at the bottom or the gui WebUI button won't work[br][br]
   </Description>
   <Overview>
@@ -38,38 +38,6 @@
       <Name>SERVERPORT</Name>
       <Value>3080</Value>
     </Variable>
-    <Variable>
-      <Name>VERAIP</Name>
-      <Value>None</Value>
-    </Variable>
-    <Variable>
-      <Name>HARMONYIP</Name>
-      <Value>None</Value>
-    </Variable>
-    <Variable>
-      <Name>HARMONYUSER</Name>
-      <Value>None</Value>
-    </Variable>
-    <Variable>
-      <Name>HARMONYPWD</Name>
-      <Value>None</Value>
-    </Variable>
-    <Variable>
-      <Name>NESTUSER</Name>
-      <Value>None</Value>
-    </Variable>
-    <Variable>
-      <Name>NESTPWD</Name>
-      <Value>None</Value>
-    </Variable>
-    <Variable>
-      <Name>UPNPSTRICT</Name>
-      <Value>true</Value>
-    </Variable>
-    <Variable>
-      <Name>UPNPTRACE</Name>
-      <Value>false</Value>
-    </Variable>
   </Environment>    
   <Data>
     <Volume>
@@ -83,9 +51,12 @@
   <Icon>http://www.cdrinfo.com/Images/Uploaded/Amazon_Echo_logo_120.jpg</Icon>
   <Beta>False</Beta>
   <Category>HomeAutomation:</Category>
-  <Date>2016-04-28</Date>
+  <Date>2016-05-01</Date>
   <Changes>
     [center][font size=5]Home Automation Bridge Change Log[/font][/center]
+
+    [font size=4]2016.05.01[/font]
+    - Update to ver 2.0.3
 
     [font size=4]2016.04.28[/font]
     - Update to ver 2.0.1
