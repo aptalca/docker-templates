@@ -56,7 +56,7 @@
     [center][font size=5]Home Automation Bridge Change Log[/font][/center]
 
     [font size=4]2016.05.05[/font]
-    - Auto updates on restart / Manual version input is removed
+    - Auto updates on restart (unless VERSION environment variable is set)
 
     [font size=4]2016.05.04[/font]
     - Update to ver 2.0.4
