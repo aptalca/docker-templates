@@ -58,10 +58,14 @@
   <WebUI>https://[IP]:[PORT:443]</WebUI>
   <Banner></Banner>
   <Icon>http://technoloman.com/wp-content/uploads/2015/12/Lets_encrypt_logo.png</Icon>
-  <Date>2016-04-16</Date>
+  <Date>2016-05-06</Date>
   <Category>Network:Web Network:Proxy</Category>
   <Changes>
     [center][font size=5]Nginx-Letsencrypt Change Log[/font][/center]
+
+    [font size=4]2016.05.66[/font]
+    - Updated nginx to 1.10.0
+    - Updated phusion baseimage to 18
 
     [font size=4]2016.04.16[/font]
     - Fixed bug with detecting fail2ban.sock, which prevented fail2ban start
