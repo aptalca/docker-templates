@@ -47,7 +47,7 @@
   </Data>
   <WebUI></WebUI>
   <Banner></Banner>
-  <Icon>https://duckdns.org/img/ducky_icon.png</Icon>
+  <Icon>https://www.duckdns.org/img/ducky_icon.png</Icon>
   <Beta>False</Beta>
   <Category>Network:DNS</Category>
   <Date>2015-12-15</Date>
