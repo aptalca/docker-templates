@@ -9,7 +9,7 @@
     [span style='color: #E80000;']8080[/span] is the WebUI port[br]
     To access the JD2 GUI, open the WebUI. By default downloads will go to /config/Downloads but you can change that in the GUI[br]
     Ctrl-Alt-Shft brings up the menu where you can switch input method (ie. touch)[br]
-    In order to use the built-in browser for manual recaptcha solving, go to advanced settings, find the following two settings: 1) GeneralSettings: Browser Command Line and 2) BrowserCaptchaSolver: Browser Commandline and change both values to the following: [ "/usr/bin/firefox", "%s" ] [br]
+    In order to use the built-in browser for manual recaptcha solving, go to advanced settings, find the following two settings: 1) GeneralSettings: Browser Command Line and 2) BrowserCaptchaSolver: Browser Commandline and change both values to the following: [code][ "/usr/bin/firefox", "%s" ][/code] [br]
     JDownloader 2 also has a webserver accessible through my.jdownloader.org
   </Description>
   <Overview>
