@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>JDownloader2</Name>
-  <Date>2016-01-08</Date>
   <Description>
     JDownloader is a free, open-source download management tool with a huge community of developers that makes downloading as easy and fast as it should be.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -10,6 +9,7 @@
     [span style='color: #E80000;']8080[/span] is the WebUI port[br]
     To access the JD2 GUI, open the WebUI. By default downloads will go to /config/Downloads but you can change that in the GUI[br]
     Ctrl-Alt-Shft brings up the menu where you can switch input method (ie. touch)[br]
+    In order to use the built-in browser for manual recaptcha solving, go to advanced settings, find the following two settings: 1) GeneralSettings: Browser Command Line and 2) BrowserCaptchaSolver: Browser Commandline and change both values to the following: `[ "/usr/bin/firefox", "%s" ]` [br]
     JDownloader 2 also has a webserver accessible through my.jdownloader.org
   </Description>
   <Overview>
@@ -54,8 +54,12 @@
   <Icon>http://upload.wikimedia.org/wikipedia/commons/f/f7/Jdownloader.png</Icon>
   <Beta>False</Beta>
   <Category>Cloud: Downloaders:</Category>
+  <Date>2016-06-08</Date>
   <Changes>
     [center][font size=5]JDownloader2 Change Log[/font][/center]
+
+    [font size=4]2016.06.08[/font]
+    - Added firefox for recaptcha in the webgui (See the container description for settings instructions)
 
     [font size=4]2016.01.08[/font]
     - Fixed downloaded file permissions. They should now work in samba shares.
