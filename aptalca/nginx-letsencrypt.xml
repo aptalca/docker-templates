@@ -58,10 +58,13 @@
   <WebUI>https://[IP]:[PORT:443]</WebUI>
   <Banner></Banner>
   <Icon>http://technoloman.com/wp-content/uploads/2015/12/Lets_encrypt_logo.png</Icon>
-  <Date>2016-06-03</Date>
+  <Date>2016-06-18</Date>
   <Category>Network:Web Network:Proxy</Category>
   <Changes>
     [center][font size=5]Nginx-Letsencrypt Change Log[/font][/center]
+
+    [font size=4]2016.06.018[/font]
+    - Log rotation fixed - Letsencrypt log moved to its own folder - Fixed missing e-mail paramater when renewing through cron
 
     [font size=4]2016.06.03[/font]
     - Added ability to change url and subdomains (container will automatically recognize changes to the variables upon start, and will update the cert accordingly)
