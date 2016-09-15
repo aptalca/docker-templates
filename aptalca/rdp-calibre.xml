@@ -9,8 +9,7 @@
     [span style='color: #E80000;']8081[/span] is the port the calibre server[br][br]
     Don't forget to enter in the host ports and app folder. [br][br]
     To access the calibre desktop GUI, open the WebUI in unRaid. Both the server and the GUI use the same database in the /config folder.[br]
-    Default resolution for the Calibre GUI window is 1280x720. You can change that to any resolution by opening the Advanced View and modifying the HEIGHT and WIDTH variables.[br]
-    This docker will install version 2.33. [span style='color: #E80000;']To get the latest updates, set the EDGE variable to 1[/span] under Advanced View.[br]
+    This docker will install version 2.67. [span style='color: #E80000;']To get the latest updates, set the EDGE variable to 1[/span] under Advanced View.[br]
     By default, the library location is set to /config. Please select "/config" as the library location on first run.[br][br]
     Custom library location and url prefix are for advanced docker users only. See the following post for instructions: https://lime-technology.com/forum/index.php?topic=39413.msg396697#msg396697
   </Description>
@@ -64,9 +63,13 @@
   <Icon>http://calibre-ebook.com/favicon.ico</Icon>
   <Beta>False</Beta>
   <Category>MediaApp:Books MediaServer:Books</Category>
-  <Date>2015-07-25</Date>
+  <Date>2016-09-15</Date>
   <Changes>
     [center][font size=5]RDP-Calibre Change Log[/font][/center]
+
+    [font size=4]2016.09.15[/font]
+    - Switched base to x11rdp1.3 which now supports clipboard through the left hand side manu (ctrl+alt+shift)
+    - Updated to release 2.67
     
     [font size=4]2015.07.25[/font]
     - Updated to release 2.33
