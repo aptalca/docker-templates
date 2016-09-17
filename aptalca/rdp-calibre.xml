@@ -63,9 +63,12 @@
   <Icon>http://calibre-ebook.com/favicon.ico</Icon>
   <Beta>False</Beta>
   <Category>MediaApp:Books MediaServer:Books</Category>
-  <Date>2016-09-15</Date>
+  <Date>2016-09-16</Date>
   <Changes>
     [center][font size=5]RDP-Calibre Change Log[/font][/center]
+
+    [font size=4]2016.09.16[/font]
+    - Remove X1-lock if exists, which prevents start up following an unclean shutdown
 
     [font size=4]2016.09.15[/font]
     - Switched base to x11rdp1.3 which now supports clipboard through the left hand side manu (ctrl+alt+shift)
