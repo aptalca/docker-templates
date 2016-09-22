@@ -59,10 +59,13 @@
   <WebUI>https://[IP]:[PORT:443]</WebUI>
   <Banner></Banner>
   <Icon>http://technoloman.com/wp-content/uploads/2015/12/Lets_encrypt_logo.png</Icon>
-  <Date>2016-08-19</Date>
+  <Date>2016-09-22</Date>
   <Category>Network:Web Network:Proxy</Category>
   <Changes>
     [center][font size=5]Nginx-Letsencrypt Change Log[/font][/center]
+
+    [font size=4]2016.09.22[/font]
+    - Fixed deletion of symlink after failed install
 
     [font size=4]2016.08.19[/font]
     - Added ability to generate certs ONLY for subdomains, without the url (many thanks to @stuwil for PR) - Greatly simplified the cert renewal process - Updated php - Added auto generated pfx private key - Added ability to change DH bit parameter without having to delete the existing file
