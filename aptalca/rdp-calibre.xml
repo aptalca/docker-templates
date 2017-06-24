@@ -63,10 +63,13 @@
   <Icon>http://calibre-ebook.com/favicon.ico</Icon>
   <Beta>False</Beta>
   <Category>MediaApp:Books MediaServer:Books</Category>
-  <Date>2016-09-16</Date>
+  <Date>2017-06-24</Date>
   <Changes>
     [center][font size=5]RDP-Calibre Change Log[/font][/center]
 
+    [font size=4]2017.06.24[/font]
+    - New webserver needs to be set up in the gui. Port has to be set to 8081
+    
     [font size=4]2016.09.16[/font]
     - Remove X1-lock if exists, which prevents start up following an unclean shutdown
 
